@@ -1,0 +1,16 @@
+{
+  "name": "troubleshooting-ct",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-01",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "CT_KV",
+      "id": "12e2ecdfd73f4a1f855b472f76307978"
+    }
+  ]
+}
